@@ -38,7 +38,8 @@ const OutletsList = () => {
 
   // API base URL
   const API_BASE_URL =
-    process.env.REACT_APP_API_URL || "http://localhost:8000/api";
+    process.env.REACT_APP_API_URL ||
+    "https://nonspurious-rory-nonacoustically.ngrok-free.dev/api";
 
   // Cek jika user bukan admin
   useEffect(() => {
